@@ -10,7 +10,8 @@ import com.tnsif.employeeservice.Entities.Employee;
 import com.tnsif.employeeservice.Service.EmployeeService;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/employeeservice")
+@CrossOrigin(origins = "http://localhost:3000")
 public class EmployeeController {
 
     @Autowired
